@@ -26,4 +26,4 @@ print(bigotes.nombres) # al cambiar el atributo de nombres, se me cambió para t
 Gato.nombres = ["Juancito","Pedrito"]
 print(Gato.nombres) # imprimo los dos nombres que cree
 print(garfield.nombres) # se agregan los dos valores a cada objeto
-print(bigotes.nombres) # se agregan los dos valores a cada objeto
+print(bigotes.nombres) # se agregan los dos valores a cada objeto-
