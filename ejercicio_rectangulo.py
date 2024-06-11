@@ -13,3 +13,5 @@ altura = float(input("Coloca un valor para la altura: "))
 rect = Rectangulo(base,altura)
 # agrego round para redondear el valor
 print("el valor del área del rectángulo es: ", round(rect.calcularArea()))
+
+
