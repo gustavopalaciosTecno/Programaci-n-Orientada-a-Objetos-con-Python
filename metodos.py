@@ -9,10 +9,22 @@ class Aritmetica:
 		""" se realiza la operación con los atributos de la clase"""
 		return self.valor1 + self.valor2
 
+	def restar(self):
+		return self.valor1 - self.valor2
 
-# se crea el objeto
+	def multiplicar(self):
+		return self.valor1 * self.valor2
+
+	def dividir(self):
+		return self.valor1 // self.valor2			
+
+
+# Se crea el objeto
 artimetica = Aritmetica(150,100)
 
-# se imprime el objeto y se muestra en pantalla
-print("el valor de la suma es: ",artimetica.sumar())		
+# Se imprime el objeto y se muestra en pantalla
+print("el valor de la suma es: ",artimetica.sumar())
+print("el valor de la resta es: ",artimetica.restar())	
+print("el valor de la multiplicación es: ",artimetica.multiplicar())	
+print("el valor de la división es: ",artimetica.dividir())			
 
