@@ -1,22 +1,28 @@
-class Coche:
-	def __init__(self,color,marca,modelo):
-		self.color = color
-		self.marca = marca
-		self.modelo = modelo
+class Persona:
+	def __init__(self,nombre,edad):
+		self.nombre = nombre
+		self.edad = edad
 
-	def mostrarInfo(self):
-		return f"el color es: {self.color}-la marca es: {self.marca} - y el modelo es: {self.modelo}"	
+			
+	
 
+#modificar los valores
+Persona.nombre = "Gustavo"
+Persona.edad = 43
 
+#Acceder a los valores
+print(Persona.nombre)
+print(Persona.edad)
 
-coche = Coche("rojo","Volskwagen","1994")
-print(coche.mostrarInfo())	
+# Creación de un objeto
+persona = Persona("María",36)
+print(persona.edad)
+print(persona.nombre)
 
-#se accede directamente al atributo	
-print(coche.color) 
-print(coche.marca)
-print(coche.modelo)
+# Imprimir valores en pantalla en una sola línea
+print(f"vos te llamas {(persona.nombre)} y tu edad es: {(persona.edad)} años")
 
-# otra forma de imprimri los valores
-resultado = f"color: {coche.color} - marca: {coche.marca} - modelo: {coche.modelo}" 
-print(resultado)
+# Creación de un segundo objeto
+persona2 = Persona("Albana",31)
+print(f" te llamas: {(persona2.nombre)} y tenes {(persona2.edad)} años de edad")
+
