@@ -6,7 +6,7 @@ class Persona:
 			
 	
 
-#modificar los valores
+# Modificar los valores
 Persona.nombre = "Gustavo"
 Persona.edad = 43
 
