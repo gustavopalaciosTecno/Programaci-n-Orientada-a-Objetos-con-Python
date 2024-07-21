@@ -16,10 +16,19 @@ class Empleado(Persona):
 	def __str__(self):
 		return super().__str__() + " Sueldo:" + str(self.sueldo)
 
-persona = Persona("Alberto",55)
+
+nombre1 = input("Coloca tu nombre acá: ")
+edad1 = int(input("Coloca tu edad acá: "))		
+
+persona = Persona(nombre1,edad1)
 print(persona)
 
-empleado = Empleado("Lidia",48,480000)
+
+nombre2 = input("Coloca tu nombre acá: ")
+edad2 = int(input("Coloca tu edad acá: "))
+sueldo = float(input("Coloca tu sueldo acá: "))
+
+empleado = Empleado(nombre2,edad2,sueldo)
 print(empleado)			
 
 # Cambiar los datos
@@ -27,6 +36,8 @@ empleado.nombre = "Lautaro"
 empleado.edad = 46
 empleado.sueldo = 180000.10
 print(empleado)	
+
+
 
 
 
