@@ -17,6 +17,26 @@ class Persona:
 		print("Nombre: ", self.nombre)
 		print("Apellido Paterno:", self._apeP)
 		print("Apellido Materno:", self.__apeM)
+
+# métodos getters y setters		
+
+	def getNombre(self):
+		return self.nombre
+
+	def setNombre(self,nombre):
+		self.nombre = nombre
+
+	def get_apeP(self):
+		return self._apeP
+
+	def set_apeP(self,apellidoPaterno):
+		self._apeP = apellidoPaterno
+
+	def get_apeM(self):
+		return self.__apeM
+
+	def set_apeM(self,apellidoMaterno):
+		self.__apeM = apellidoMaterno						
 			
 
 
@@ -25,3 +45,10 @@ persona2 = Persona("María","Rodriguez", "Montenegro")
 persona2._metodoProtegio()	
 # persona.__metodoPrivado()	
 persona.metodoPublico()	
+print("##################")
+print(persona.getNombre())
+print(persona.get_apeP())
+print(persona.get_apeM())
+
+
+
