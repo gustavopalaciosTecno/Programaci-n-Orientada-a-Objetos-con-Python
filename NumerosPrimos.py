@@ -16,6 +16,7 @@ numero_primo = int(input("Coloca un valor para saber si es primo: "))
 resultado_primo = Primos()
 if resultado_primo == True:
     print(f"El número {numero_primo} es primo")
+    nuevo_resultado = resultado_primo.es_primo(numero_primo)
 else:    
     print("no es primo")
 
