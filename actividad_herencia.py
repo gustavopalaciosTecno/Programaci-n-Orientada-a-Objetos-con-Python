@@ -27,7 +27,7 @@ Bicicleta (Clase Hija de Vehículo) (Además de los atributos y métodos heradad
 
 -Métodos ( __init__() y __str__() )
 """
-
+### clase vehículos
 class Vehiculo:
 	def __init__(self,nombre,color,ruedas):
 		self.color = color
