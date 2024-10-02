@@ -1,14 +1,16 @@
-from abc import ABC, abstractclassmethod
+from abc import ABC, abstractmethod
 
 class Persona(ABC):
-    @abstractclassmethod
+
+    @abstractmethod
     def __init__(self,nombre,edad,sexo,actividad):
         self.nombre = nombre
         self.edad = edad
         self.sexo = sexo
         self.actividad = actividad
         
-    @abstractclassmethod
+      
+    @abstractmethod
     def hacer_actividad(self):
            pass 
        
@@ -34,6 +36,10 @@ class Trabajador(Persona):
                
 gustavo = Estudiante("Néstor",43,"masculino","programación")
 gustavo.hacer_actividad()   
+maria = Trabajador("María",36,"femenino","administración")
+maria.hacer_actividad()
+
        
-           
+
+                        
         
