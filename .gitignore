@@ -1,0 +1,6 @@
+# Archivos de compilación y caché de JavaScript
+dist/
+build/
+.cache/
+
+
