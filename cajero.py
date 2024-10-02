@@ -25,6 +25,7 @@ info = """
 2. Extraer dinero
 3. Agregar dinero
 4. Salir
+
 """
 
 
